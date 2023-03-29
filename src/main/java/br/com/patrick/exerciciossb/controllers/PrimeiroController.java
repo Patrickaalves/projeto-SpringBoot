@@ -1,4 +1,4 @@
-package br.com.patrick.exerciciossb.controlers;
+package br.com.patrick.exerciciossb.controllers;
 
 import org.springframework.web.bind.annotation.*;
 
@@ -21,8 +21,5 @@ public class PrimeiroController {
     public String sau (){
         return "Ola Spring boot POST";
     }
-
-
-
 
 }
