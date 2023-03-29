@@ -3,7 +3,7 @@ package br.com.patrick.exerciciossb.controllers;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping("/metodos")
+@RequestMapping("metodos")
 public class MetodosHttpController {
 
     @GetMapping
@@ -12,7 +12,7 @@ public class MetodosHttpController {
     }
     @PostMapping
     public String post(){
-        return "requisição post";
+        return "requisicao post";
     }
     @PutMapping
     public String put(){
