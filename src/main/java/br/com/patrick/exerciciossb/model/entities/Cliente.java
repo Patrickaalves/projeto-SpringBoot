@@ -1,4 +1,4 @@
-package br.com.patrick.exerciciossb.model;
+package br.com.patrick.exerciciossb.model.entities;
 
 public class Cliente {
     private int id;
